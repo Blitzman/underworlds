@@ -1,0 +1,26 @@
+[
+    {
+        "player_a": "Albert",
+        "warband_a": "Stormsire Cursebreakers",
+        "glory_a": 6,
+        "player_b": "Adri",
+        "warband_b": "Mollog's Mob",
+        "glory_b": 2,
+        "winner": "Albert",
+        "board": "",
+        "deploy": "",
+        "outcome": "Glory"
+    },
+    {
+        "player_a": "Albert",
+        "warband_a": "Stormsire Cursebreakers",
+        "glory_a": 6,
+        "player_b": "Adri",
+        "warband_b": "Mollog's Mob",
+        "glory_b": 10,
+        "winner": "Adri",
+        "board": "",
+        "deploy": "",
+        "outcome": "Glory"
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "Albert":
+    {
+        "games": 0,
+        "win": 0,
+        "draw": 0,
+        "lost": 0,
+        "glory_a": 0,
+        "glory_b": 0
+    }
+}
