@@ -1,10 +1,12 @@
 {
     "Shadespire" :
     [
-        "Magore's Fiends"
+        "Magore's Fiends",
+        "Garrek's Reavers"
     ],
     "Nightvault" :
     [
-        "Mollog's Mob"
+        "Mollog's Mob",
+        "Thundrik's Profiteers"
     ]
 }

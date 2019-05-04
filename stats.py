@@ -8,7 +8,7 @@ with open('warbands.json') as _f:
     for season in warbands_json_:
         warbands_.extend(warbands_json_[season])
 
-print(warbands_)
+#print(warbands_)
 
 matches_ = []
 
@@ -35,7 +35,7 @@ players_ = {}
 
 for i in range(len(matches_)):
 
-    print(matches_[i])
+    #print(matches_[i])
 
     player_a_ = matches_[i]["player_a"]
     player_b_ = matches_[i]["player_b"]
@@ -67,13 +67,15 @@ for i in range(len(matches_)):
     players_[player_b_]["glory_scored"] += matches_[i]["glory_b"]
     players_[player_b_]["glory_conceded"] += matches_[i]["glory_a"]
     
-print(players_)
+#print(players_)
 
 def print_player_stats(players):
 
+    print("Player \t Games \t Win \t\t Draw \t\t Loss \t\t Glory(w:c:b)")
+
     for p in players:
 
-        print("{} \t {} \t {}({}%) \t {}({}%) \t {}({}%) \t {}:{}:{}".format(
+        print("{} \t {} \t {}({:.2f}%) \t {}({:.2f}%) \t {}({:.2f}%) \t {}:{}:{}".format(
             p,
             players[p]["games"],
             players[p]["win"],
